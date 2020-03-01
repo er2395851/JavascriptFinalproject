@@ -16,13 +16,12 @@ background: url("Connect4Board.png") no-repeat;
 table {
 border-spacing: 0;
 width: 100%;
-border: .50px solid rgb(255, 29, 180);
+
 }
 
 td {
 width: 90px;
 height: 77px;
-border: .50px solid rgb(255, 29, 180);
 }
 
 .red {
