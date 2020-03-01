@@ -1,0 +1,44 @@
+
+body {
+background-color: white;
+}
+
+div#Connect4Board {
+border: 1px solid #000000;
+border-radius: 12px;
+vertical-align: top;
+width: 640px;
+height: 480px;
+overflow: hidden;
+background: url("Connect4Board.png") no-repeat;
+}
+
+table {
+border-spacing: 0;
+width: 100%;
+border: .50px solid rgb(255, 29, 180);
+}
+
+td {
+width: 90px;
+height: 77px;
+border: .50px solid rgb(255, 29, 180);
+}
+
+.red {
+background: url("red2.png") no-repeat center center
+}
+
+.yellow {
+background: url("yellow2.png") no-repeat center center
+}
+
+.none {
+background: none;
+}
+
+
+#turn{
+color: red;
+font-size: 30px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="stylesheet" type="text/css" href="style.css">  
+</head>
+
+<body>
+    
+        <h1>Connect Four</h1>
+
+        <p>Welcome to Connect Four in Space, where there's no gravity and the coins don't fall!</p>
+        
+        <div id="redScore">Yellow (Player 1) wins:</div>
+        
+        <div id="yellowScore">Red (Player 2) wins:</div>
+        
+        <p id="turn">Yellow's turn</p>
+
+        <div id="Connect4Board">
+
+                <table>
+                        <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        </tr>
+                        <tr>
+                        <td id="1" onClick="getCell(id)" class="1"></td>
+                        <td id="2" onClick="getCell(id)" class="2"></td>
+                        <td id="3" onClick="getCell(id)" class="3"></td>
+                        <td id="4" onClick="getCell(id)" class="4"></td>
+                        <td id="5" onClick="getCell(id)" class="5"></td>
+                        <td id="6" onClick="getCell(id)" class="6"></td>
+                        <td id="7" onClick="getCell(id)" class="7"></td>
+                        </tr>
+                        <tr>
+                        <td id="8" onClick="getCell(id)" class="8"></td>
+                        <td id="9" onClick="getCell(id)" class="9"></td>
+                        <td id="10" onClick="getCell(id)" class="10"></td>
+                        <td id="11" onClick="getCell(id)" class="11"></td>
+                        <td id="12" onClick="getCell(id)" class="12"></td>
+                        <td id="13" onClick="getCell(id)" class="13"></td>
+                        <td id="14" onClick="getCell(id)" class="14"></td>
+                        </tr>
+                        <tr>
+                        <td id="15" onClick="getCell(id)" class="15"></td>
+                        <td id="16" onClick="getCell(id)" class="16"></td>
+                        <td id="17" onClick="getCell(id)" class="17"></td>
+                        <td id="18" onClick="getCell(id)" class="18"></td>
+                        <td id="19" onClick="getCell(id)" class="19"></td>
+                        <td id="20" onClick="getCell(id)" class="20"></td>
+                        <td id="21" onClick="getCell(id)" class="21"></td>
+                        </tr>
+                        <tr>
+                        <td id="22" onClick="getCell(id)" class="22"></td>
+                        <td id="23" onClick="getCell(id)" class="23"></td>
+                        <td id="24" onClick="getCell(id)" class="24"></td>
+                        <td id="25" onClick="getCell(id)" class="25"></td>
+                        <td id="26" onClick="getCell(id)" class="26"></td>
+                        <td id="27" onClick="getCell(id)" class="27"></td>
+                        <td id="28" onClick="getCell(id)" class="28"></td>
+                        </tr>
+                        <tr>
+                        <td id="29" onClick="getCell(id)" class="29"></td>
+                        <td id="30" onClick="getCell(id)" class="30"></td>
+                        <td id="31" onClick="getCell(id)" class="31"></td>
+                        <td id="32" onClick="getCell(id)" class="32"></td>
+                        <td id="33" onClick="getCell(id)" class="33"></td>
+                        <td id="34" onClick="getCell(id)" class="34"></td>
+                        <td id="35" onClick="getCell(id)" class="35"></td>
+                        </tr>
+                        <tr>
+                        <td id="36" onClick="getCell(id)" class="36"></td>
+                        <td id="37" onClick="getCell(id)" class="37"></td>
+                        <td id="38" onClick="getCell(id)" class="38"></td>
+                        <td id="39" onClick="getCell(id)" class="39"></td>
+                        <td id="40" onClick="getCell(id)" class="40"></td>
+                        <td id="41" onClick="getCell(id)" class="41"></td>
+                        <td id="42" onClick="getCell(id)" class="42"></td>
+                        </tr>
+                </table>
+        </div>
+
+        <button onclick="restartGame()"><p>Restart</p></button>
+
+        <script src="script.js"></script>
+        <script src="model.js"></script>
+        <script src="view.js"></script>
+        <script src="script.js"></script>
+        <script src="controller.js"></script>
+
+</body>
+
+</html>
